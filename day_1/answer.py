@@ -1,10 +1,12 @@
 #!/usr/local/bin/python3
 
+
 def part_1(values, target):
     for value in values:
         for value2 in values:
             if value + value2 == 2020:
                 return value * value2
+
 
 def part_2(values, target):
     for value in values:

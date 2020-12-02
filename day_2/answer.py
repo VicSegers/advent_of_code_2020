@@ -15,6 +15,7 @@ def part_1(values):
 
     return valids
 
+
 def part_2(values):
     valids = 0
 
@@ -27,7 +28,7 @@ def part_2(values):
         is_first_index = password[int(indices[0]) - 1] == letter
         is_second_index = password[int(indices[1]) - 1] == letter
 
-        if (is_first_index != is_second_index):
+        if is_first_index != is_second_index:
             valids += 1
 
     return valids
@@ -39,10 +40,3 @@ if __name__ == "__main__":
 
     print(f"Part 1: {part_1(values)}")
     print(f"Part 2: {part_2(values)}")
-
-
-
-
-
-
-
