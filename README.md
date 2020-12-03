@@ -8,3 +8,4 @@ This repository contains my solutions of the Advent of Code 2020 challenges writ
 | - | - | - |
 | [1](day_1/) | 1019371 | 278064990 |
 | [2](day_2/) | 416 | 688 |
+| [3](day_3/) | 169 | 7560370818 |
